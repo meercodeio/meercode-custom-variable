@@ -23,6 +23,8 @@ async function main() {
             }
         };
 
+        console.log(runId, userDefinedURL)
+
         const response = await axios(config);
 
         console.log(response);
