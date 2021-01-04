@@ -1,0 +1,12 @@
+name: 'Send custom variable to Meercode Build'
+description: 'This action send a custom url to Meercode Build'
+inputs:
+  meercode-token:
+    description: 'Value of your Meercode token'
+    required: true
+  url:
+    description: 'Value of your deployment URL'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

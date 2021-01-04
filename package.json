@@ -1,0 +1,24 @@
+{
+  "name": "meercode-custom-variable",
+  "version": "0.0.1",
+  "description": "This action send a custom url to Meercode Build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meercodeio/meercode-custom-variable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meercodeio/meercode-custom-variable/issues"
+  },
+  "homepage": "https://github.com/meercodeio/meercode-custom-variable#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "axios": "^0.21.0"
+  }
+}
