@@ -15,7 +15,7 @@ async function main() {
             method: 'PATCH',
             headers: {
                 "content-type": "application/json",
-                "Authorization": meercodeToken
+                "meercode-token": meercodeToken
             },
             data: {
                 runId,
