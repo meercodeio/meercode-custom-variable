@@ -8,7 +8,7 @@ async function main() {
 
         const runId = process.env.GITHUB_RUN_ID;
         
-        const url = 'https://develop.api.meercode.io/api/run';
+        const url = 'https://api.meercode.io/api/run';
 
         const config = {
             url,
@@ -22,12 +22,7 @@ async function main() {
                 url: userDefinedURL,
             }
         };
-
-        console.log(runId, userDefinedURL)
-
-        const response = await axios(config);
-
-        console.log(response);
+        await axios(config);
     } catch (error) {
         core.setFailed(error.message);
     }
