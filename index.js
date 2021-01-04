@@ -8,7 +8,7 @@ async function main() {
 
         const runId = process.env.GITHUB_RUN_ID;
         
-        const url = 'https://develop.api.meercode.io/api/runs';
+        const url = 'https://develop.api.meercode.io/api/run';
 
         const config = {
             url,
