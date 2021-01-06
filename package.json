@@ -1,6 +1,6 @@
 {
   "name": "meercode-custom-variable",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "This action send a custom url to Meercode Build",
   "main": "index.js",
   "scripts": {

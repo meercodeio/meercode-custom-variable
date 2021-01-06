@@ -6,7 +6,7 @@ This action send a custom url to Meercode Build
 
 ### `meercode-token`
 
-**Required** Value of your Meercode token. https://develop.meercode.io/settings.
+**Required** Value of your Meercode token. https://meercode.io/settings.
 
 ### `url`
 
@@ -16,8 +16,8 @@ This action send a custom url to Meercode Build
 ## Example usage
 
 ```
-uses: meercodeio/meercode-custom-variable@0.1
+uses: meercodeio/meercode-custom-variable@0.1.0
 with:
-  meercode-token: '${{ secrets.APP_CENTER_TOKEN }}'
+  meercode-token: '${{ secrets.MEERCODE_TOKEN }}'
   url: 'https://my-qa-env.herokuapp.com'
 ```
